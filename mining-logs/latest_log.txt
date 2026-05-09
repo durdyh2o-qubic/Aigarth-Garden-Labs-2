@@ -1,6 +1,7 @@
-2024-05-08 15:30:45 Starting Qubic Miner
-Mining Seed: QMINER_SEED_123456
-2024-05-08 15:31:22 [INFO] E:42 Epoch Status: SHARES: 15/20 50 it/s 48 avg it/s
-2024-05-08 15:32:15 [INFO] E:43 Epoch Status: SHARES: 22/30 52 it/s 50 avg it/s
-2024-05-08 15:33:10 [INFO] E:44 Epoch Status: SHARES: 35/50 55 it/s 52 avg it/s
-2024-05-08 15:34:05 [INFO] E:45 Epoch Status: SHARES: 48/60 58 it/s 55 avg it/s
+2026-05-08 15:30:45 Starting Qubic Miner
+Mining Seed: QMINER_SEED_123
+2026-05-08 15:31:22 [INFO] E:1 Epoch Status: SHARES: 10/50 45 it/s 42 avg it/s
+2026-05-08 15:32:15 [INFO] E:2 Epoch Status: SHARES: 20/50 48 it/s 45 avg it/s
+2026-05-08 15:33:10 [INFO] E:3 Epoch Status: SHARES: 30/50 52 it/s 48 avg it/s
+2026-05-08 15:34:05 [INFO] E:4 Epoch Status: SHARES: 40/50 55 it/s 52 avg it/s
+2026-05-08 15:35:00 [INFO] E:5 Epoch Status: SHARES: 45/50 58 it/s 55 avg it/s
