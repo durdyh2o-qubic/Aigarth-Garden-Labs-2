@@ -20,3 +20,4 @@ cd simulations
 source garden_venv/bin/activate
 python run_experiment.py --mut 0.20 --gens 60 --pop 128 --seed 86F3893EDF74789F73BC2FAB0C80C6B5772FBD90257741EE942F03BE50D3C04B
 
+# Aigarth-Garden-Labs-2
