@@ -1,0 +1,5 @@
+timestamp,epoch,shares_found,shares_total,it_s,avg_it_s,seed,efficiency,log_file
+2026-05-08 20:05:24,42,15,20,50,48,QMINER_SEED_123456,0.75,latest_log.txt
+2026-05-08 20:05:24,43,22,30,52,50,QMINER_SEED_123456,0.7333,latest_log.txt
+2026-05-08 20:05:24,44,35,50,55,52,QMINER_SEED_123456,0.7,latest_log.txt
+2026-05-08 20:05:24,45,48,60,58,55,QMINER_SEED_123456,0.8,latest_log.txt
