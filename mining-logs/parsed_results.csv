@@ -1,6 +1,6 @@
-timestamp,epoch,shares_found,shares_total,it_s,avg_it_s,seed,efficiency,log_file
-2026-05-08 15:30:00,1,10,50,45,42,QMINER_SEED_123,0.2,latest_log.txt
-2026-05-08 15:35:00,2,20,50,48,45,QMINER_SEED_123,0.4,latest_log.txt
-2026-05-08 15:40:00,3,30,50,52,48,QMINER_SEED_123,0.6,latest_log.txt
-2026-05-08 15:45:00,4,40,50,55,52,QMINER_SEED_123,0.8,latest_log.txt
-2026-05-08 15:50:00,5,45,50,58,55,QMINER_SEED_123,0.9,latest_log.txt
+timestamp,epoch,shares_found,shares_total,it_s,avg_it_s,efficiency,seed
+2026-05-08,1,10,50,45,42,0.2,QMINER_SEED_123
+2026-05-08,2,20,50,48,45,0.4,QMINER_SEED_123
+2026-05-08,3,30,50,52,48,0.6,QMINER_SEED_123
+2026-05-08,4,40,50,55,52,0.8,QMINER_SEED_123
+2026-05-08,5,45,50,58,55,0.9,QMINER_SEED_123
