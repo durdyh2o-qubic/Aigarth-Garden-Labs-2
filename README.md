@@ -2,7 +2,7 @@
 
 **Living Experimental Observatory for Qubic Aigarth Hyperidentity Evolution (May 2026)**
 
-A public garden laboratory studying the growth of the **Intelligent Tissue** through **Useful Proof-of-Work (uPoW)**, local ternary neuron simulations, and Grok agentic workflows.
+A public garden laboratory studying the growth of the **Intelligent Tissue** through **Useful Proof-of-Work (uPoW)**, local ternary neuron simulations, and Hermes Agent/Grok agentic workflows.
 
 ## Current Status (May 2026)
 - **Epochs**: ~60+ into Aigarth Phase 2
