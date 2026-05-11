@@ -1,29 +1,23 @@
 {
-    "epoch_end_time": "2026-05-09 19:30:51",
-    "total_epochs": 1,
-    "total_shares_found": 66,
-    "total_shares_attempted": 66,
-    "shares_success_rate": 100,
-    "peak_iterations_per_second": 14144399,
-    "avg_iterations_per_second": 8270215,
-    "mining_seed": "1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039E90FA1AD5C48F867CA",
-    "hyperidentity_params": {
-        "inputs": 512,
-        "outputs": 512,
-        "timesteps": 1000,
-        "neurons": 728,
-        "mutation_rate": 150
-    },
-    "addition_params": {
-        "inputs": 14,
-        "outputs": 8,
-        "timesteps": 1000,
-        "neurons": 728,
-        "mutation_rate": 500
-    },
-    "performance_insights": {
-        "computation_stability": "High",
-        "share_consistency": "Perfect (66/66)",
-        "computational_decay_pattern": "Gradual decline with periodic resets"
-    }
+  "epoch_end_time": "2026-05-11T12:01:47.319848",
+  "total_epochs": 1,
+  "total_shares_found": 7920,
+  "total_shares_attempted": 7920,
+  "shares_success_rate": 100.0,
+  "avg_efficiency": 1.0,
+  "max_efficiency": 1.0,
+  "min_efficiency": 1.0,
+  "max_iterations_per_second": 14144399,
+  "avg_iterations_per_second": 6288733.69,
+  "mining_seed": "1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039E90FA1AD5C48F867CA",
+  "iterations_stats": {
+    "mean": 6288733.69,
+    "median": 5729313.5,
+    "std_dev": 5238275.17
+  },
+  "efficiency_stats": {
+    "mean": 1.0,
+    "median": 1.0,
+    "std_dev": 0.0
+  }
 }
