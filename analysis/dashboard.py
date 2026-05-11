@@ -13,8 +13,8 @@ print("🌱 Aigarth Garden Dashboard")
 print("=" * 60)
 print(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}\n")
 
-# Load latest simulation
-results_dir = Path('results')
+# Load latest simulation (fixed path)
+results_dir = Path('../results')
 sim_files = sorted(results_dir.glob('results_mut*.csv'), reverse=True)
 
 if sim_files:
@@ -33,10 +33,11 @@ if sim_files:
     plt.grid(True, alpha=0.3)
     plt.legend()
     plt.tight_layout()
-    plt.savefig('results/latest_fitness_curve.png', dpi=300)
+    plt.savefig('../results/latest_fitness_curve.png', dpi=300)
     print("   📈 Plot saved → results/latest_fitness_curve.png")
 else:
-    print("⚠️  No simulation results found yet.")
+    print("⚠️  No simulation results found in ../results/")
+    print("   Run a simulation first in the simulations/ folder.")
 
 print("\n✅ Dashboard complete.")
 print("Repo → https://github.com/durdyh2o-qubic/Aigarth-Garden-Labs-2")
