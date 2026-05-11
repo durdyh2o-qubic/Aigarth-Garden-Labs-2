@@ -1,66 +1,42 @@
 #!/usr/bin/env python3
 """
-Aigarth Garden: Hyperidentity Evolution Observatory
-
-Lightweight data analysis for mining and simulation results.
+🌱 Aigarth Garden Analysis Tools
+Hyperidentity Evolution Observatory
 """
 
 import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
+from datetime import datetime
 
-def load_mining_logs(path):
-    """Load and validate mining logs."""
-    try:
-        df = pd.read_csv(path)
-        print(f"Mining Logs: {len(df)} entries")
-        return df
-    except Exception as e:
-        print(f"Error loading mining logs: {e}")
-        return None
+print("🌱 Aigarth Garden Dashboard")
+print("=" * 60)
+print(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}\n")
 
-def load_simulation_results(path):
-    """Load and validate simulation results."""
-    try:
-        df = pd.read_csv(path)
-        print(f"Simulation Results: {len(df)} generations")
-        return df
-    except Exception as e:
-        print(f"Error loading simulation results: {e}")
-        return None
+# Load latest simulation
+results_dir = Path('results')
+sim_files = sorted(results_dir.glob('results_mut*.csv'), reverse=True)
 
-def visualize_performance(mining_df, sim_df):
-    """Create performance visualization."""
-    plt.figure(figsize=(12, 6))
+if sim_files:
+    latest = pd.read_csv(sim_files[0])
+    print(f"📊 Latest Simulation: {sim_files[0].name}")
+    print(f"   Generations : {len(latest)}")
+    print(f"   Peak Fitness: {latest['best_fitness'].max():.6f}")
+    print(f"   Final Fitness: {latest['best_fitness'].iloc[-1]:.6f}\n")
     
-    if mining_df is not None:
-        plt.subplot(1, 2, 1)
-        plt.plot(mining_df['it_s'], label='Iterations/Second')
-        plt.title('Mining Performance')
-        plt.xlabel('Log Entry')
-        plt.ylabel('it/s')
-        plt.legend()
-    
-    if sim_df is not None:
-        plt.subplot(1, 2, 2)
-        plt.plot(sim_df['best_fitness'], label='Best Fitness')
-        plt.title('Simulation Fitness')
-        plt.xlabel('Generation')
-        plt.ylabel('Fitness')
-        plt.legend()
-    
+    # Plot
+    plt.figure(figsize=(10, 6))
+    plt.plot(latest.index, latest['best_fitness'], 'b-', linewidth=2.5, label='Best Fitness')
+    plt.title('Hyperidentity Evolution — Fitness Over Generations')
+    plt.xlabel('Generation')
+    plt.ylabel('Best Fitness')
+    plt.grid(True, alpha=0.3)
+    plt.legend()
     plt.tight_layout()
-    plt.show()
+    plt.savefig('results/latest_fitness_curve.png', dpi=300)
+    print("   📈 Plot saved → results/latest_fitness_curve.png")
+else:
+    print("⚠️  No simulation results found yet.")
 
-def main():
-    """Main analysis workflow."""
-    mining_logs_path = Path('../mining-logs/parsed_results.csv')
-    sim_results_path = sorted(Path('../results').glob('results_mut*.csv'))[-1]
-    
-    mining_df = load_mining_logs(mining_logs_path)
-    sim_df = load_simulation_results(sim_results_path)
-    
-    visualize_performance(mining_df, sim_df)
-
-if __name__ == "__main__":
-    main()
+print("\n✅ Dashboard complete.")
+print("Repo → https://github.com/durdyh2o-qubic/Aigarth-Garden-Labs-2")
