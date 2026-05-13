@@ -6,10 +6,9 @@
 A living garden laboratory studying the growth of the **Intelligent Tissue** through Useful Proof-of-Work (uPoW), local ternary hyperidentity simulations, mining logs, and agentic analysis.
 
 ## Current Status (May 10, 2026)
-- **Best Fitness**: **0.303941**
-- **Stable Plateau**: ~0.3035 – 0.3039 (confirmed over 120+ generations)
-- **Latest Run**: 120 generations, final fitness **0.303701**
-- **Automation**: Fully operational (every 2 hours)
+- Best Fitness: **0.303941**
+- Stable Plateau: ~0.3035 – 0.3039
+- Latest 120-gen run: **0.303701**
 
 ## Quick Start
 
