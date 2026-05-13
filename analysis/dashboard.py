@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-🌱 Aigarth Garden Analysis Tools
-Hyperidentity Evolution Observatory
+🌱 Aigarth Garden Multi-Run Dashboard
 """
 
 import pandas as pd
@@ -9,35 +8,31 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 from datetime import datetime
 
-print("🌱 Aigarth Garden Dashboard")
-print("=" * 60)
+print("🌱 Aigarth Garden Multi-Run Dashboard")
+print("=" * 70)
 print(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}\n")
 
-# Load latest simulation (fixed path)
 results_dir = Path('../results')
 sim_files = sorted(results_dir.glob('results_mut*.csv'), reverse=True)
 
-if sim_files:
-    latest = pd.read_csv(sim_files[0])
-    print(f"📊 Latest Simulation: {sim_files[0].name}")
-    print(f"   Generations : {len(latest)}")
-    print(f"   Peak Fitness: {latest['best_fitness'].max():.6f}")
-    print(f"   Final Fitness: {latest['best_fitness'].iloc[-1]:.6f}\n")
+if not sim_files:
+    print("⚠️ No simulation results found yet.")
+else:
+    plt.figure(figsize=(12, 8))
+    for file in sim_files[:8]:  # Show up to 8 latest runs
+        df = pd.read_csv(file)
+        label = file.name.replace('results_mut0.2_', '').replace('.csv', '')[:20]
+        plt.plot(df.index, df['best_fitness'], label=label, linewidth=2, alpha=0.85)
+        print(f"📊 {file.name}: {len(df)} gens | Peak: {df['best_fitness'].max():.6f}")
     
-    # Plot
-    plt.figure(figsize=(10, 6))
-    plt.plot(latest.index, latest['best_fitness'], 'b-', linewidth=2.5, label='Best Fitness')
-    plt.title('Hyperidentity Evolution — Fitness Over Generations')
+    plt.title('Hyperidentity Evolution — Multiple Runs Comparison')
     plt.xlabel('Generation')
     plt.ylabel('Best Fitness')
     plt.grid(True, alpha=0.3)
     plt.legend()
     plt.tight_layout()
-    plt.savefig('../results/latest_fitness_curve.png', dpi=300)
-    print("   📈 Plot saved → results/latest_fitness_curve.png")
-else:
-    print("⚠️  No simulation results found in ../results/")
-    print("   Run a simulation first in the simulations/ folder.")
+    plt.savefig('../results/multi_run_comparison.png', dpi=300)
+    print("\n📈 Multi-run comparison plot saved → results/multi_run_comparison.png")
 
 print("\n✅ Dashboard complete.")
 print("Repo → https://github.com/durdyh2o-qubic/Aigarth-Garden-Labs-2")
