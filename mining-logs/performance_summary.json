@@ -1,0 +1,13 @@
+{
+  "collection_time": "2026-05-12T16:01:44.622914+00:00",
+  "total_epochs": 49,
+  "total_shares_found": 441,
+  "total_shares_attempted": 4986,
+  "shares_success_rate": 8.84,
+  "avg_efficiency": 0.1479,
+  "max_efficiency": 0.8182,
+  "min_efficiency": 0.0,
+  "max_iterations_per_second": 496,
+  "avg_iterations_per_second": 272.53,
+  "mining_seed": 3219991
+}
