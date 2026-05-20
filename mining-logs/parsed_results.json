@@ -1,1 +1,11 @@
-[{"timestamp":1778587264207,"epoch":42,"it_s":1250.0,"shares_found":15,"shares_total":1024,"efficiency":0.8192,"seed":"x7F91A"},{"timestamp":1778587264207,"epoch":42,"it_s":1275.0,"shares_found":22,"shares_total":1024,"efficiency":0.8031372549,"seed":"x7F91A"},{"timestamp":1778587264207,"epoch":42,"it_s":1300.0,"shares_found":31,"shares_total":1024,"efficiency":0.7876923077,"seed":"x7F91A"}]
+[
+  {
+    "timestamp":1715479200000,
+    "it_s":0.0,
+    "efficiency":0.0,
+    "shares_found":0,
+    "shares_total":1,
+    "epoch":0,
+    "seed":3501857145
+  }
+]
