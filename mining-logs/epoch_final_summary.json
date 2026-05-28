@@ -1,23 +1,23 @@
 {
-  "epoch_end_time": "2026-05-12T12:01:20.957521",
+  "epoch_end_time": "2026-05-28T00:01:25.448920",
   "total_epochs": 1,
-  "total_shares_found": 68,
-  "total_shares_attempted": 3072,
-  "shares_success_rate": 2.21,
-  "avg_efficiency": 0.8033,
-  "max_efficiency": 0.8192,
-  "min_efficiency": 0.7877,
-  "max_iterations_per_second": 1300,
-  "avg_iterations_per_second": 1275.0,
-  "mining_seed": "x7F91A",
+  "total_shares_found": 0,
+  "total_shares_attempted": 1,
+  "shares_success_rate": 0.0,
+  "avg_efficiency": 0.0,
+  "max_efficiency": 0.0,
+  "min_efficiency": 0.0,
+  "max_iterations_per_second": 0,
+  "avg_iterations_per_second": 0.0,
+  "mining_seed": "2536129318",
   "iterations_stats": {
-    "mean": 1275.0,
-    "median": 1275.0,
-    "std_dev": 25.0
+    "mean": 0.0,
+    "median": 0.0,
+    "std_dev": NaN
   },
   "efficiency_stats": {
-    "mean": 0.8033,
-    "median": 0.8031,
-    "std_dev": 0.0158
+    "mean": 0.0,
+    "median": 0.0,
+    "std_dev": NaN
   }
 }
