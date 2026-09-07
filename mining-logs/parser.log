@@ -1,0 +1,14 @@
+2026-05-13 10:00:05,811 [INFO] Parsed 1 lines from mining-logs/latest_log.txt
+2026-05-13 10:00:05,821 [ERROR] Error saving results: No module named 'openpyxl'
+2026-05-13 12:00:05,441 [INFO] Parsed 1 lines from mining-logs/latest_log.txt
+2026-05-13 12:00:05,445 [ERROR] Error saving results: No module named 'openpyxl'
+2026-05-13 14:00:04,857 [INFO] Parsed 1 lines from mining-logs/latest_log.txt
+2026-05-13 14:00:04,861 [ERROR] Error saving results: No module named 'openpyxl'
+2026-05-13 16:00:03,305 [INFO] Parsed 1 lines from mining-logs/latest_log.txt
+2026-05-13 16:00:03,309 [ERROR] Error saving results: No module named 'openpyxl'
+2026-05-13 18:00:04,862 [INFO] Parsed 1 lines from mining-logs/latest_log.txt
+2026-05-13 18:00:04,865 [ERROR] Error saving results: No module named 'openpyxl'
+2026-05-13 20:00:04,416 [INFO] Parsed 1 lines from mining-logs/latest_log.txt
+2026-05-13 20:00:04,419 [ERROR] Error saving results: No module named 'openpyxl'
+2026-05-13 22:00:03,143 [INFO] Parsed 1 lines from mining-logs/latest_log.txt
+2026-05-13 22:00:03,147 [ERROR] Error saving results: No module named 'openpyxl'

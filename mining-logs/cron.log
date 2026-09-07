@@ -1,0 +1,747 @@
+On branch simulation-results-20260509
+Your branch is up to date with 'origin/simulation-results-20260509'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	experiment_logger.py
+	fitness_curve_mut0.2_20260510_0835.png
+	garden_automation.py
+	garden_venv/
+	hyperidentity_venv/
+	mining-logs/cron.log
+	mining_env/
+	results_mut0.2_20260510_0835.csv
+	simulations/.ipynb_checkpoints/
+	simulations/__pycache__/
+	simulations/best_child_mut0.2_20260509_1120.npy
+	simulations/best_child_mut0.2_20260509_1318.npy
+	simulations/fitness_curve_mut0.2_20260509_1120.png
+	simulations/fitness_curve_mut0.2_20260509_1318.png
+	simulations/fitness_curve_mut0.2_20260509_2216.png
+	simulations/fitness_curve_mut0.2_20260510_0812.png
+	simulations/fitness_curve_mut0.2_20260510_0821.png
+	simulations/results_mut0.2_20260509_1120.csv
+	simulations/results_mut0.2_20260509_1318.csv
+	simulations/results_mut0.2_20260509_2216.csv
+	simulations/results_mut0.2_20260510_0812.csv
+	simulations/results_mut0.2_20260510_0821.csv
+
+nothing added to commit but untracked files present (use "git add" to track)
+🌱 Starting Aigarth Garden Automation Cycle
+======================================================================
+📡 Parsing latest mining log...
+timestamp  ...                                               seed
+0    2026-05-09 19:28:47.068  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+1    2026-05-09 19:28:48.071  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+2    2026-05-09 19:28:49.072  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+3    2026-05-09 19:28:50.073  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+4    2026-05-09 19:28:51.078  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+..                       ...  ...                                                ...
+115  2026-05-09 19:30:47.306  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+116  2026-05-09 19:30:48.310  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+117  2026-05-09 19:30:49.312  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+118  2026-05-09 19:30:50.318  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+119  2026-05-09 19:30:51.323  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+
+[120 rows x 6 columns]
+✅ Parsed 120 entries
+   → mining-logs/parsed_results.csv
+   → mining-logs/parsed_results.json
+
+📊 Generating Garden Status Report...
+🌱 Aigarth Garden Status Report
+======================================================================
+Date: 2026-05-10 10:00 UTC
+
+📡 MINING
+   Peak it/s      : 14,144,399
+   Avg it/s       : 6,288,734
+   Avg Efficiency : 100.0%
+   Latest Seed    : 1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039E90FA1AD5C48F867CA
+
+🧬 SIMULATION
+   Peak Fitness   : 0.600000
+   Latest Run     : 6 generations
+
+The Garden is being observed honestly and openly.
+Repo → https://github.com/durdyh2o-qubic/Aigarth-Garden-Labs-2
+
+🚀 Pushing updates to public Garden...
+ℹ️  No new changes to push
+
+✅ Cycle complete at 10:00 UTC
+The Intelligent Tissue continues to evolve.
+On branch simulation-results-20260509
+Your branch is up to date with 'origin/simulation-results-20260509'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	experiment_logger.py
+	fitness_curve_mut0.2_20260510_0835.png
+	garden_automation.py
+	garden_venv/
+	hyperidentity_venv/
+	mining-logs/cron.log
+	mining_env/
+	results_mut0.2_20260510_0835.csv
+	simulations/.ipynb_checkpoints/
+	simulations/__pycache__/
+	simulations/best_child_mut0.2_20260509_1120.npy
+	simulations/best_child_mut0.2_20260509_1318.npy
+	simulations/fitness_curve_mut0.2_20260509_1120.png
+	simulations/fitness_curve_mut0.2_20260509_1318.png
+	simulations/fitness_curve_mut0.2_20260509_2216.png
+	simulations/fitness_curve_mut0.2_20260510_0812.png
+	simulations/fitness_curve_mut0.2_20260510_0821.png
+	simulations/results_mut0.2_20260509_1120.csv
+	simulations/results_mut0.2_20260509_1318.csv
+	simulations/results_mut0.2_20260509_2216.csv
+	simulations/results_mut0.2_20260510_0812.csv
+	simulations/results_mut0.2_20260510_0821.csv
+
+nothing added to commit but untracked files present (use "git add" to track)
+🌱 Starting Aigarth Garden Automation Cycle
+======================================================================
+📡 Parsing latest mining log...
+timestamp  ...                                               seed
+0    2026-05-09 19:28:47.068  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+1    2026-05-09 19:28:48.071  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+2    2026-05-09 19:28:49.072  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+3    2026-05-09 19:28:50.073  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+4    2026-05-09 19:28:51.078  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+..                       ...  ...                                                ...
+115  2026-05-09 19:30:47.306  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+116  2026-05-09 19:30:48.310  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+117  2026-05-09 19:30:49.312  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+118  2026-05-09 19:30:50.318  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+119  2026-05-09 19:30:51.323  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+
+[120 rows x 6 columns]
+✅ Parsed 120 entries
+   → mining-logs/parsed_results.csv
+   → mining-logs/parsed_results.json
+
+📊 Generating Garden Status Report...
+🌱 Aigarth Garden Status Report
+======================================================================
+Date: 2026-05-10 12:00 UTC
+
+📡 MINING
+   Peak it/s      : 14,144,399
+   Avg it/s       : 6,288,734
+   Avg Efficiency : 100.0%
+   Latest Seed    : 1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039E90FA1AD5C48F867CA
+
+🧬 SIMULATION
+   Peak Fitness   : 0.600000
+   Latest Run     : 6 generations
+
+The Garden is being observed honestly and openly.
+Repo → https://github.com/durdyh2o-qubic/Aigarth-Garden-Labs-2
+
+🚀 Pushing updates to public Garden...
+ℹ️  No new changes to push
+
+✅ Cycle complete at 12:00 UTC
+The Intelligent Tissue continues to evolve.
+On branch simulation-results-20260509
+Your branch is up to date with 'origin/simulation-results-20260509'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   mining-logs/parser.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	experiment_logger.py
+	garden_automation.py
+	garden_venv/
+	hyperidentity_venv/
+	mining-logs/cron.log
+	mining_env/
+	simulations/.ipynb_checkpoints/
+	simulations/__pycache__/
+	simulations/best_child_mut0.2_20260509_1120.npy
+	simulations/best_child_mut0.2_20260509_1318.npy
+	simulations/fitness_curve_mut0.2_20260509_1120.png
+	simulations/fitness_curve_mut0.2_20260509_1318.png
+	simulations/fitness_curve_mut0.2_20260509_2216.png
+	simulations/fitness_curve_mut0.2_20260510_0812.png
+	simulations/fitness_curve_mut0.2_20260510_0821.png
+	simulations/results_mut0.2_20260509_1120.csv
+	simulations/results_mut0.2_20260509_1318.csv
+	simulations/results_mut0.2_20260509_2216.csv
+	simulations/results_mut0.2_20260510_0812.csv
+	simulations/results_mut0.2_20260510_0821.csv
+
+no changes added to commit (use "git add" and/or "git commit -a")
+🌱 Starting Aigarth Garden Automation Cycle
+======================================================================
+📡 Parsing latest mining log...
+timestamp  ...                                               seed
+0    2026-05-09 19:28:47.068  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+1    2026-05-09 19:28:48.071  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+2    2026-05-09 19:28:49.072  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+3    2026-05-09 19:28:50.073  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+4    2026-05-09 19:28:51.078  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+..                       ...  ...                                                ...
+115  2026-05-09 19:30:47.306  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+116  2026-05-09 19:30:48.310  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+117  2026-05-09 19:30:49.312  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+118  2026-05-09 19:30:50.318  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+119  2026-05-09 19:30:51.323  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+
+[120 rows x 6 columns]
+✅ Parsed 120 entries
+   → mining-logs/parsed_results.csv
+   → mining-logs/parsed_results.json
+
+📊 Generating Garden Status Report...
+🌱 Aigarth Garden Status Report
+======================================================================
+Date: 2026-05-10 14:00 UTC
+
+📡 MINING
+   Peak it/s      : 14,144,399
+   Avg it/s       : 6,288,734
+   Avg Efficiency : 100.0%
+   Latest Seed    : 1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039E90FA1AD5C48F867CA
+
+🧬 SIMULATION
+   Peak Fitness   : 0.600000
+   Latest Run     : 6 generations
+
+The Garden is being observed honestly and openly.
+Repo → https://github.com/durdyh2o-qubic/Aigarth-Garden-Labs-2
+
+🚀 Pushing updates to public Garden...
+ℹ️  No new changes to push
+
+✅ Cycle complete at 14:00 UTC
+The Intelligent Tissue continues to evolve.
+On branch simulation-results-20260509
+Your branch is up to date with 'origin/simulation-results-20260509'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   mining-logs/parser.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	best_child_mut0.2_20260510_0835.npy
+	experiment_logger.py
+	garden_automation.py
+	garden_venv/
+	hyperidentity_venv/
+	mining-logs/cron.log
+	mining_env/
+	simulations/.ipynb_checkpoints/
+	simulations/__pycache__/
+	simulations/best_child_mut0.2_20260509_1120.npy
+	simulations/best_child_mut0.2_20260509_1318.npy
+	simulations/fitness_curve_mut0.2_20260509_1120.png
+	simulations/fitness_curve_mut0.2_20260509_1318.png
+	simulations/fitness_curve_mut0.2_20260509_2216.png
+	simulations/fitness_curve_mut0.2_20260510_0812.png
+	simulations/fitness_curve_mut0.2_20260510_0821.png
+	simulations/results_mut0.2_20260509_1120.csv
+	simulations/results_mut0.2_20260509_1318.csv
+	simulations/results_mut0.2_20260509_2216.csv
+	simulations/results_mut0.2_20260510_0812.csv
+	simulations/results_mut0.2_20260510_0821.csv
+
+no changes added to commit (use "git add" and/or "git commit -a")
+🌱 Starting Aigarth Garden Automation Cycle
+======================================================================
+📡 Parsing latest mining log...
+timestamp  ...                                               seed
+0    2026-05-09 19:28:47.068  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+1    2026-05-09 19:28:48.071  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+2    2026-05-09 19:28:49.072  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+3    2026-05-09 19:28:50.073  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+4    2026-05-09 19:28:51.078  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+..                       ...  ...                                                ...
+115  2026-05-09 19:30:47.306  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+116  2026-05-09 19:30:48.310  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+117  2026-05-09 19:30:49.312  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+118  2026-05-09 19:30:50.318  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+119  2026-05-09 19:30:51.323  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+
+[120 rows x 6 columns]
+✅ Parsed 120 entries
+   → mining-logs/parsed_results.csv
+   → mining-logs/parsed_results.json
+
+📊 Generating Garden Status Report...
+🌱 Aigarth Garden Status Report
+======================================================================
+Date: 2026-05-10 16:00 UTC
+
+📡 MINING
+   Peak it/s      : 14,144,399
+   Avg it/s       : 6,288,734
+   Avg Efficiency : 100.0%
+   Latest Seed    : 1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039E90FA1AD5C48F867CA
+
+🧬 SIMULATION
+   Peak Fitness   : 0.600000
+   Latest Run     : 6 generations
+
+The Garden is being observed honestly and openly.
+Repo → https://github.com/durdyh2o-qubic/Aigarth-Garden-Labs-2
+
+🚀 Pushing updates to public Garden...
+ℹ️  No new changes to push
+
+✅ Cycle complete at 16:00 UTC
+The Intelligent Tissue continues to evolve.
+On branch simulation-results-20260509
+Your branch is up to date with 'origin/simulation-results-20260509'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   mining-logs/parser.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	best_child_mut0.2_20260510_0835.npy
+	experiment_logger.py
+	garden_automation.py
+	garden_venv/
+	hyperidentity_venv/
+	mining-logs/cron.log
+	mining_env/
+	simulations/.ipynb_checkpoints/
+	simulations/__pycache__/
+	simulations/best_child_mut0.2_20260509_1120.npy
+	simulations/best_child_mut0.2_20260509_1318.npy
+	simulations/fitness_curve_mut0.2_20260509_1120.png
+	simulations/fitness_curve_mut0.2_20260509_1318.png
+	simulations/fitness_curve_mut0.2_20260509_2216.png
+	simulations/fitness_curve_mut0.2_20260510_0812.png
+	simulations/fitness_curve_mut0.2_20260510_0821.png
+	simulations/results_mut0.2_20260509_1120.csv
+	simulations/results_mut0.2_20260509_1318.csv
+	simulations/results_mut0.2_20260509_2216.csv
+	simulations/results_mut0.2_20260510_0812.csv
+	simulations/results_mut0.2_20260510_0821.csv
+
+no changes added to commit (use "git add" and/or "git commit -a")
+🌱 Starting Aigarth Garden Automation Cycle
+======================================================================
+📡 Parsing latest mining log...
+timestamp  ...                                               seed
+0    2026-05-09 19:28:47.068  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+1    2026-05-09 19:28:48.071  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+2    2026-05-09 19:28:49.072  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+3    2026-05-09 19:28:50.073  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+4    2026-05-09 19:28:51.078  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+..                       ...  ...                                                ...
+115  2026-05-09 19:30:47.306  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+116  2026-05-09 19:30:48.310  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+117  2026-05-09 19:30:49.312  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+118  2026-05-09 19:30:50.318  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+119  2026-05-09 19:30:51.323  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+
+[120 rows x 6 columns]
+✅ Parsed 120 entries
+   → mining-logs/parsed_results.csv
+   → mining-logs/parsed_results.json
+
+📊 Generating Garden Status Report...
+🌱 Aigarth Garden Status Report
+======================================================================
+Date: 2026-05-10 18:00 UTC
+
+📡 MINING
+   Peak it/s      : 14,144,399
+   Avg it/s       : 6,288,734
+   Avg Efficiency : 100.0%
+   Latest Seed    : 1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039E90FA1AD5C48F867CA
+
+🧬 SIMULATION
+   Peak Fitness   : 0.600000
+   Latest Run     : 6 generations
+
+The Garden is being observed honestly and openly.
+Repo → https://github.com/durdyh2o-qubic/Aigarth-Garden-Labs-2
+
+🚀 Pushing updates to public Garden...
+ℹ️  No new changes to push
+
+✅ Cycle complete at 18:00 UTC
+The Intelligent Tissue continues to evolve.
+On branch simulation-results-20260509
+Your branch is up to date with 'origin/simulation-results-20260509'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   mining-logs/parser.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	best_child_mut0.2_20260510_0835.npy
+	experiment_logger.py
+	garden_automation.py
+	garden_venv/
+	hyperidentity_venv/
+	mining-logs/cron.log
+	mining_env/
+	simulations/.ipynb_checkpoints/
+	simulations/__pycache__/
+	simulations/best_child_mut0.2_20260509_1120.npy
+	simulations/best_child_mut0.2_20260509_1318.npy
+	simulations/fitness_curve_mut0.2_20260509_1120.png
+	simulations/fitness_curve_mut0.2_20260509_1318.png
+	simulations/fitness_curve_mut0.2_20260509_2216.png
+	simulations/fitness_curve_mut0.2_20260510_0812.png
+	simulations/fitness_curve_mut0.2_20260510_0821.png
+	simulations/results_mut0.2_20260509_1120.csv
+	simulations/results_mut0.2_20260509_1318.csv
+	simulations/results_mut0.2_20260509_2216.csv
+	simulations/results_mut0.2_20260510_0812.csv
+	simulations/results_mut0.2_20260510_0821.csv
+
+no changes added to commit (use "git add" and/or "git commit -a")
+🌱 Starting Aigarth Garden Automation Cycle
+======================================================================
+📡 Parsing latest mining log...
+timestamp  ...                                               seed
+0    2026-05-09 19:28:47.068  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+1    2026-05-09 19:28:48.071  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+2    2026-05-09 19:28:49.072  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+3    2026-05-09 19:28:50.073  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+4    2026-05-09 19:28:51.078  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+..                       ...  ...                                                ...
+115  2026-05-09 19:30:47.306  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+116  2026-05-09 19:30:48.310  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+117  2026-05-09 19:30:49.312  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+118  2026-05-09 19:30:50.318  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+119  2026-05-09 19:30:51.323  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+
+[120 rows x 6 columns]
+✅ Parsed 120 entries
+   → mining-logs/parsed_results.csv
+   → mining-logs/parsed_results.json
+
+📊 Generating Garden Status Report...
+🌱 Aigarth Garden Status Report
+======================================================================
+Date: 2026-05-10 20:00 UTC
+
+📡 MINING
+   Peak it/s      : 14,144,399
+   Avg it/s       : 6,288,734
+   Avg Efficiency : 100.0%
+   Latest Seed    : 1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039E90FA1AD5C48F867CA
+
+🧬 SIMULATION
+   Peak Fitness   : 0.600000
+   Latest Run     : 6 generations
+
+The Garden is being observed honestly and openly.
+Repo → https://github.com/durdyh2o-qubic/Aigarth-Garden-Labs-2
+
+🚀 Pushing updates to public Garden...
+ℹ️  No new changes to push
+
+✅ Cycle complete at 20:00 UTC
+The Intelligent Tissue continues to evolve.
+[simulation-results-20260509 290ca7d5] Automated Garden Update - 2026-05-10 22:00
+ 3 files changed, 11 insertions(+)
+ create mode 100644 results/hyperidentity_3d_landscape.png
+ create mode 100644 results/hyperidentity_neural_network.gif
+ create mode 100644 results/hyperidentity_neural_network_report.md
+To github.com:durdyh2o-qubic/Aigarth-Garden-Labs-2.git
+   05856f9f..290ca7d5  simulation-results-20260509 -> simulation-results-20260509
+🌱 Starting Aigarth Garden Automation Cycle
+======================================================================
+📡 Parsing latest mining log...
+timestamp  ...                                               seed
+0    2026-05-09 19:28:47.068  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+1    2026-05-09 19:28:48.071  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+2    2026-05-09 19:28:49.072  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+3    2026-05-09 19:28:50.073  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+4    2026-05-09 19:28:51.078  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+..                       ...  ...                                                ...
+115  2026-05-09 19:30:47.306  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+116  2026-05-09 19:30:48.310  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+117  2026-05-09 19:30:49.312  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+118  2026-05-09 19:30:50.318  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+119  2026-05-09 19:30:51.323  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+
+[120 rows x 6 columns]
+✅ Parsed 120 entries
+   → mining-logs/parsed_results.csv
+   → mining-logs/parsed_results.json
+
+📊 Generating Garden Status Report...
+🌱 Aigarth Garden Status Report
+======================================================================
+Date: 2026-05-10 22:00 UTC
+
+📡 MINING
+   Peak it/s      : 14,144,399
+   Avg it/s       : 6,288,734
+   Avg Efficiency : 100.0%
+   Latest Seed    : 1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039E90FA1AD5C48F867CA
+
+🧬 SIMULATION
+   Peak Fitness   : 0.600000
+   Latest Run     : 6 generations
+
+The Garden is being observed honestly and openly.
+Repo → https://github.com/durdyh2o-qubic/Aigarth-Garden-Labs-2
+
+🚀 Pushing updates to public Garden...
+✅ Pushed to GitHub successfully
+
+✅ Cycle complete at 22:00 UTC
+The Intelligent Tissue continues to evolve.
+On branch simulation-results-20260509
+Your branch is up to date with 'origin/simulation-results-20260509'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   analysis/dashboard.py
+	modified:   mining-logs/parser.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	analysis/3d hyperidenitity 5-10.png
+	analysis/Recording 2026-05-10 211950.mp4
+	analysis/__pycache__/
+	analysis/gol_hyperhybrid.py
+	analysis/hybrid_3d_animation.py
+	analysis/hybrid_experiment_results.png
+	analysis/hyper_tissue.py
+	analysis/hyperidentity_3d_model.py
+	analysis/hyperidentity_neural_network_gif.py
+	best_child_mut0.2_20260510_0835.npy
+	experiment_logger.py
+	garden_automation.py
+	garden_venv/
+	hyperidentity_venv/
+	mining-logs/archive/
+	mining-logs/cron.log
+	mining-logs/epoch_interval_summary.json
+	mining_env/
+	simulations/.ipynb_checkpoints/
+	simulations/__pycache__/
+	simulations/best_child_mut0.2_20260509_1120.npy
+	simulations/best_child_mut0.2_20260509_1318.npy
+	simulations/fitness_curve_mut0.2_20260510_2249.png
+	simulations/results_mut0.2_20260510_2249.csv
+
+no changes added to commit (use "git add" and/or "git commit -a")
+🌱 Starting Aigarth Garden Automation Cycle
+======================================================================
+📡 Parsing latest mining log...
+timestamp  ...                                               seed
+0    2026-05-09 19:28:47.068  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+1    2026-05-09 19:28:48.071  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+2    2026-05-09 19:28:49.072  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+3    2026-05-09 19:28:50.073  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+4    2026-05-09 19:28:51.078  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+..                       ...  ...                                                ...
+115  2026-05-09 19:30:47.306  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+116  2026-05-09 19:30:48.310  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+117  2026-05-09 19:30:49.312  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+118  2026-05-09 19:30:50.318  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+119  2026-05-09 19:30:51.323  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+
+[120 rows x 6 columns]
+✅ Parsed 120 entries
+   → mining-logs/parsed_results.csv
+   → mining-logs/parsed_results.json
+
+📊 Generating Garden Status Report...
+🌱 Aigarth Garden Status Report
+======================================================================
+Date: 2026-05-11 00:00 UTC
+
+📡 MINING
+   Peak it/s      : 14,144,399
+   Avg it/s       : 6,288,734
+   Avg Efficiency : 100.0%
+   Latest Seed    : 1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039E90FA1AD5C48F867CA
+
+🧬 SIMULATION
+   Peak Fitness   : 0.600000
+   Latest Run     : 6 generations
+
+The Garden is being observed honestly and openly.
+Repo → https://github.com/durdyh2o-qubic/Aigarth-Garden-Labs-2
+
+🚀 Pushing updates to public Garden...
+ℹ️  No new changes to push
+
+✅ Cycle complete at 00:00 UTC
+The Intelligent Tissue continues to evolve.
+On branch simulation-results-20260509
+Your branch is up to date with 'origin/simulation-results-20260509'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   analysis/dashboard.py
+	modified:   mining-logs/parser.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	analysis/3d hyperidenitity 5-10.png
+	analysis/Recording 2026-05-10 211950.mp4
+	analysis/__pycache__/
+	analysis/gol_hyperhybrid.py
+	analysis/hybrid_3d_animation.py
+	analysis/hybrid_experiment_results.png
+	analysis/hyper_tissue.py
+	analysis/hyperidentity_3d_model.py
+	analysis/hyperidentity_neural_network_gif.py
+	best_child_mut0.2_20260510_0835.npy
+	experiment_logger.py
+	garden_automation.py
+	garden_venv/
+	hyperidentity_venv/
+	mining-logs/archive/
+	mining-logs/cron.log
+	mining-logs/epoch_interval_summary.json
+	mining_env/
+	simulations/.ipynb_checkpoints/
+	simulations/__pycache__/
+	simulations/best_child_mut0.2_20260509_1120.npy
+	simulations/best_child_mut0.2_20260509_1318.npy
+	simulations/fitness_curve_mut0.2_20260510_2249.png
+	simulations/results_mut0.2_20260510_2249.csv
+
+no changes added to commit (use "git add" and/or "git commit -a")
+🌱 Starting Aigarth Garden Automation Cycle
+======================================================================
+📡 Parsing latest mining log...
+timestamp  ...                                               seed
+0    2026-05-09 19:28:47.068  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+1    2026-05-09 19:28:48.071  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+2    2026-05-09 19:28:49.072  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+3    2026-05-09 19:28:50.073  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+4    2026-05-09 19:28:51.078  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+..                       ...  ...                                                ...
+115  2026-05-09 19:30:47.306  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+116  2026-05-09 19:30:48.310  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+117  2026-05-09 19:30:49.312  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+118  2026-05-09 19:30:50.318  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+119  2026-05-09 19:30:51.323  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+
+[120 rows x 6 columns]
+✅ Parsed 120 entries
+   → mining-logs/parsed_results.csv
+   → mining-logs/parsed_results.json
+
+📊 Generating Garden Status Report...
+🌱 Aigarth Garden Status Report
+======================================================================
+Date: 2026-05-11 02:00 UTC
+
+📡 MINING
+   Peak it/s      : 14,144,399
+   Avg it/s       : 6,288,734
+   Avg Efficiency : 100.0%
+   Latest Seed    : 1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039E90FA1AD5C48F867CA
+
+🧬 SIMULATION
+   Peak Fitness   : 0.600000
+   Latest Run     : 6 generations
+
+The Garden is being observed honestly and openly.
+Repo → https://github.com/durdyh2o-qubic/Aigarth-Garden-Labs-2
+
+🚀 Pushing updates to public Garden...
+ℹ️  No new changes to push
+
+✅ Cycle complete at 02:00 UTC
+The Intelligent Tissue continues to evolve.
+On branch simulation-results-20260509
+Your branch is up to date with 'origin/simulation-results-20260509'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   analysis/dashboard.py
+	modified:   mining-logs/parser.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	analysis/3d hyperidenitity 5-10.png
+	analysis/Recording 2026-05-10 211950.mp4
+	analysis/__pycache__/
+	analysis/gol_hyperhybrid.py
+	analysis/hybrid_3d_animation.py
+	analysis/hybrid_experiment_results.png
+	analysis/hyper_tissue.py
+	analysis/hyperidentity_3d_model.py
+	analysis/hyperidentity_neural_network_gif.py
+	best_child_mut0.2_20260510_0835.npy
+	experiment_logger.py
+	garden_automation.py
+	garden_venv/
+	hyperidentity_venv/
+	mining-logs/archive/
+	mining-logs/cron.log
+	mining-logs/epoch_interval_summary.json
+	mining_env/
+	simulations/.ipynb_checkpoints/
+	simulations/__pycache__/
+	simulations/best_child_mut0.2_20260509_1120.npy
+	simulations/best_child_mut0.2_20260509_1318.npy
+	simulations/fitness_curve_mut0.2_20260510_2249.png
+	simulations/results_mut0.2_20260510_2249.csv
+
+no changes added to commit (use "git add" and/or "git commit -a")
+🌱 Starting Aigarth Garden Automation Cycle
+======================================================================
+📡 Parsing latest mining log...
+timestamp  ...                                               seed
+0    2026-05-09 19:28:47.068  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+1    2026-05-09 19:28:48.071  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+2    2026-05-09 19:28:49.072  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+3    2026-05-09 19:28:50.073  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+4    2026-05-09 19:28:51.078  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+..                       ...  ...                                                ...
+115  2026-05-09 19:30:47.306  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+116  2026-05-09 19:30:48.310  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+117  2026-05-09 19:30:49.312  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+118  2026-05-09 19:30:50.318  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+119  2026-05-09 19:30:51.323  ...  1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039...
+
+[120 rows x 6 columns]
+✅ Parsed 120 entries
+   → mining-logs/parsed_results.csv
+   → mining-logs/parsed_results.json
+
+📊 Generating Garden Status Report...
+🌱 Aigarth Garden Status Report
+======================================================================
+Date: 2026-05-11 04:00 UTC
+
+📡 MINING
+   Peak it/s      : 14,144,399
+   Avg it/s       : 6,288,734
+   Avg Efficiency : 100.0%
+   Latest Seed    : 1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039E90FA1AD5C48F867CA
+
+🧬 SIMULATION
+   Peak Fitness   : 0.600000
+   Latest Run     : 6 generations
+
+The Garden is being observed honestly and openly.
+Repo → https://github.com/durdyh2o-qubic/Aigarth-Garden-Labs-2
+
+🚀 Pushing updates to public Garden...
+ℹ️  No new changes to push
+
+✅ Cycle complete at 04:00 UTC
+The Intelligent Tissue continues to evolve.
