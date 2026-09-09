@@ -1,23 +1,24 @@
 # Aigarth-Garden-Labs
 
-**Living Experimental Observatory for Qubic Aigarth Hyperidentity Evolution (May 2026)**
+**Public Observatory for Qubic Aigarth Hyperidentity Evolution**  
+*May 2026*
 
-A public garden laboratory studying the growth of the **Intelligent Tissue** through **Useful Proof-of-Work (uPoW)**, local ternary neuron simulations, and Hermes Agent/Grok agentic workflows.
+A living garden laboratory studying the growth of the **Intelligent Tissue** through Useful Proof-of-Work (uPoW), local ternary hyperidentity simulations, mining logs, and agentic analysis.
 
-## Current Status (May 2026)
-- **Epochs**: ~60+ into Aigarth Phase 2
-- **Best fitness achieved**: **0.003989** (Mut=0.20 with Helix + Teacher-of-Teachers scoring)
-- **Sweet spot mutation**: **≈ 0.20** (aligns well with real miner Mut:150)
-- **Seed under study**: `86F3893EDF74789F73BC2FAB0C80C6B5772FBD90257741EE942F03BE50D3C04B`
-
-**Mission**: Truth-seeking documentation of decentralized AGI progress.  
-Celebrate breakthroughs. Honestly record limitations. Explore hybrid paths when needed.
+## Current Status (May 10, 2026)
+- Best Fitness: **0.303941**
+- Stable Plateau: ~0.3035 – 0.3039
+- Latest 120-gen run: **0.303701**
 
 ## Quick Start
 
 ```bash
-cd simulations
-source garden_venv/bin/activate
-python run_experiment.py --mut 0.20 --gens 60 --pop 128 --seed 86F3893EDF74789F73BC2FAB0C80C6B5772FBD90257741EE942F03BE50D3C04B
+git clone https://github.com/durdyh2o-qubic/Aigarth-Garden-Labs-2.git
+cd Aigarth-Garden-Labs-2
 
-# Aigarth-Garden-Labs-2
+python3 -m venv garden_venv
+source garden_venv/bin/activate
+pip install numpy pandas matplotlib click
+
+cd simulations
+python run_experiment.py --mut 0.20 --gens 60 --pop 128 --seed 2354D8B800D56AD4831F93FA895050EA74C4778CDC1055133AFA5CC4C7B8C984
