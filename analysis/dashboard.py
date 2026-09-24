@@ -1,66 +1,38 @@
 #!/usr/bin/env python3
 """
-Aigarth Garden: Hyperidentity Evolution Observatory
-
-Lightweight data analysis for mining and simulation results.
+🌱 Aigarth Garden Multi-Run Dashboard
 """
 
 import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
+from datetime import datetime
 
-def load_mining_logs(path):
-    """Load and validate mining logs."""
-    try:
-        df = pd.read_csv(path)
-        print(f"Mining Logs: {len(df)} entries")
-        return df
-    except Exception as e:
-        print(f"Error loading mining logs: {e}")
-        return None
+print("🌱 Aigarth Garden Multi-Run Dashboard")
+print("=" * 70)
+print(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}\n")
 
-def load_simulation_results(path):
-    """Load and validate simulation results."""
-    try:
-        df = pd.read_csv(path)
-        print(f"Simulation Results: {len(df)} generations")
-        return df
-    except Exception as e:
-        print(f"Error loading simulation results: {e}")
-        return None
+results_dir = Path('../results')
+sim_files = sorted(results_dir.glob('results_mut*.csv'), reverse=True)
 
-def visualize_performance(mining_df, sim_df):
-    """Create performance visualization."""
-    plt.figure(figsize=(12, 6))
+if not sim_files:
+    print("⚠️ No simulation results found yet.")
+else:
+    plt.figure(figsize=(12, 8))
+    for file in sim_files[:8]:  # Show up to 8 latest runs
+        df = pd.read_csv(file)
+        label = file.name.replace('results_mut0.2_', '').replace('.csv', '')[:20]
+        plt.plot(df.index, df['best_fitness'], label=label, linewidth=2, alpha=0.85)
+        print(f"📊 {file.name}: {len(df)} gens | Peak: {df['best_fitness'].max():.6f}")
     
-    if mining_df is not None:
-        plt.subplot(1, 2, 1)
-        plt.plot(mining_df['it_s'], label='Iterations/Second')
-        plt.title('Mining Performance')
-        plt.xlabel('Log Entry')
-        plt.ylabel('it/s')
-        plt.legend()
-    
-    if sim_df is not None:
-        plt.subplot(1, 2, 2)
-        plt.plot(sim_df['best_fitness'], label='Best Fitness')
-        plt.title('Simulation Fitness')
-        plt.xlabel('Generation')
-        plt.ylabel('Fitness')
-        plt.legend()
-    
+    plt.title('Hyperidentity Evolution — Multiple Runs Comparison')
+    plt.xlabel('Generation')
+    plt.ylabel('Best Fitness')
+    plt.grid(True, alpha=0.3)
+    plt.legend()
     plt.tight_layout()
-    plt.show()
+    plt.savefig('../results/multi_run_comparison.png', dpi=300)
+    print("\n📈 Multi-run comparison plot saved → results/multi_run_comparison.png")
 
-def main():
-    """Main analysis workflow."""
-    mining_logs_path = Path('../mining-logs/parsed_results.csv')
-    sim_results_path = sorted(Path('../results').glob('results_mut*.csv'))[-1]
-    
-    mining_df = load_mining_logs(mining_logs_path)
-    sim_df = load_simulation_results(sim_results_path)
-    
-    visualize_performance(mining_df, sim_df)
-
-if __name__ == "__main__":
-    main()
+print("\n✅ Dashboard complete.")
+print("Repo → https://github.com/durdyh2o-qubic/Aigarth-Garden-Labs-2")

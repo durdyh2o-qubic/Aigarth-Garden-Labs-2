@@ -1,0 +1,23 @@
+{
+  "epoch_end_time": "2026-05-11T06:01:36.206586",
+  "total_epochs": 1,
+  "total_shares_found": 7920,
+  "total_shares_attempted": 7920,
+  "shares_success_rate": 100.0,
+  "avg_efficiency": 1.0,
+  "max_efficiency": 1.0,
+  "min_efficiency": 1.0,
+  "max_iterations_per_second": 14144399,
+  "avg_iterations_per_second": 6288733.69,
+  "mining_seed": "1018CFBD92609D3800829CC75340ECA7F1BCB3EB212039E90FA1AD5C48F867CA",
+  "iterations_stats": {
+    "mean": 6288733.69,
+    "median": 5729313.5,
+    "std_dev": 5238275.17
+  },
+  "efficiency_stats": {
+    "mean": 1.0,
+    "median": 1.0,
+    "std_dev": 0.0
+  }
+}

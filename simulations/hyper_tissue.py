@@ -27,19 +27,21 @@ class AigarthTissue:
         parent_state = self.simulate_ticks(parent)
         child_state = self.simulate_ticks(child)
         
-        fidelity = -np.mean(np.abs(child_state - parent_state)) * 1.0
+        fidelity = -np.mean(np.abs(child_state - parent_state))
         diversity = np.std(child_state) * 0.5
-        structural_bonus = 0.1 * np.mean(np.abs(child - parent))
+        structural = 0.1 * np.mean(np.abs(child - parent))
+        helix = -np.mean(np.abs(child_state + parent_state)) * 0.15
+        teacher = -np.mean(np.abs(child_state - np.roll(parent_state, 1))) * 0.1
         
-        helix_score = -np.mean(np.abs(child_state + parent_state)) * 0.15
-        teacher_score = -np.mean(np.abs(child_state - np.roll(parent_state, 1))) * 0.1
-        
-        # Long-term stability (1000 ticks)
+        # New: Long-term Stability (1000 ticks)
         long_parent = self.simulate_ticks(parent, ticks=1000)
         long_child = self.simulate_ticks(child, ticks=1000)
-        stability_score = -np.mean(np.abs(long_child - long_parent)) * 0.2
+        stability_score = -np.mean(np.abs(long_child - long_parent)) * 0.25
         
-        fitness = fidelity + diversity + structural_bonus + helix_score + teacher_score + stability_score
+        # New: Uncertainty Handling (how well it uses the 0 state)
+        uncertainty_score = np.mean(child_state == 0) * 0.3   # reward balanced uncertainty
+        
+        fitness = fidelity + diversity + structural + helix + teacher + stability_score + uncertainty_score
         return child, fitness
 
     def evolve_population(self, pop_size: int = 128, generations: int = 1, mut_rate: float = 0.20) -> List:
